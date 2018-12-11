@@ -1,0 +1,9 @@
+Dining philosopher:
+	1. 5 philopshers are present at a table + 5 forks / chopsticks.
+	2. They can eat or think.
+	3. Philosophers can eat when they have both left and right chopsticks.
+	4. A chopstick can be hold by one philosopher at a given time. 
+	5. The problem: how to create a concurrent algorithm such that no philosopher will starve.
+	
+	
+	

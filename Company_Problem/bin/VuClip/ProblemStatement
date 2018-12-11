@@ -1,0 +1,35 @@
+Companywise Min Salary
+In this problem, you have to modify an existing Java program that reads in the scores received by students in a number of subjects, and does some processing on it.
+
+The input is being read in from a file called input.txt, in this format:
+
+Vineel Phatak, 520, Amkart, NOBODY
+Ajay Joshi, 250, Amkart, Vineel Phatak
+Abhishek Chauhan, 120, Amkart, Ajay Joshi
+Jayesh Godse, 500, Airflix, NOBODY
+Vijaya Mundada, 60, Amkart, Abhishek Chauhan
+Shital Tuteja, 45, Airflix, Jayesh Godse
+Rajan Gawli, 700, Amkart, Vineel Phatak
+Sheila Rodrigues, 35, Amkart, Vineel Phatak
+Zeba Khan, 300, Airflix, Jayesh Godse
+Chaitali Sood, 100, Airflix, Zeba Khan
+Each line contains an employee name, a salary (in Rs. thousands per month), the name of the company, and the name of the manager of that employee - all separated by commas. You may assume that employee name, company name, and manager name do not contain any commas, and that salary is an integer. The special manager name NOBODY indicates that this employee does not have a manager (and is hence the CEO of the company). You can assume that there is only one CEO in each company.
+
+Currently, the existing program reads the input and creates an ArrayList<String> from the lines of input. Then it calls a method processData on this ArrayList, and prints the returned data to the output file. Unfortunately, processData currently does not do anything useful - it just returns an empty `Map.
+
+You have to modify processData to compute the minimum salary of any employee in each company. Thus, processData will return a Map that maps each company name to the minimum salary in that company. In other words, the map will contain each company name as a key, and the minimum salary in that company as the value for that entry.
+
+Thus, if input.txt contained the information given earlier in this question, then, after your program runs, output.txt should contain:
+
+Amkart: 35
+Airflix: 45
+Note: don't worry if the order of the lines in your output don't exactly match the order here, but the name and the number in each line must match perfectly. Also, make sure that each line consists of just one name followed by a colon, a blank space, and then one number, and nothing else.
+
+Please read this expected output carefully to understand exactly what you're expected to compute. Please download this existing Java program and submit a modified version of it as your answer.
+
+Note:
+
+Please do not add a package declaration to the code
+Do not change the name of the class from Main
+Do not change the input and output files that the program is using
+Your program should be in Java, well structured, well written, easy to understand, and choice of appropriate algorithms and data-structures are important. Please include appropriate comments with your code.

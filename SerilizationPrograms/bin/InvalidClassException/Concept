@@ -1,0 +1,28 @@
+Class Refactoring with Serialization and serialVersionUID
+
+Java Serialization permits some changes in the java class if they can be ignored. Some of the changes in class that 
+will not affect the deserialization process are:
+
+Adding new variables to the class
+Changing the variables from transient to non-transient, for serialization it’s like having a new field.
+Changing the variable from static to non-static, for serialization it’s like having a new field.
+
+But for all these changes to work, the java class should have serialVersionUID defined for the class.
+
+The reason is clear that serialVersionUID of the previous class and new class are different.
+ Actually if the class doesn’t define serialVersionUID, it’s getting calculated automatically and assigned to the class. 
+ Java uses class variables, methods, class name, package etc to generate this unique long number. 
+ If you are working with any IDE, you will automatically get a warning that “The serializable class 
+ Employee does not declare a static final serialVersionUID field of type long”.
+
+We can use java utility “serialver” to generate the class serialVersionUID, for Employee class we can run it with below command.
+
+1
+SerializationExample/bin$serialver -classpath . com.journaldev.serialization.Employee
+Note that it’s not required that the serial version is generated from this program itself, we can assign this value as we want. 
+It just need to be there to let deserialization process know that the new class is the new version of the same class and should be
+ deserialized of possible.
+
+For example, uncomment only the serialVersionUID field from the Employee class and run SerializationTest program. Now uncomment
+ the password field from Employee class and run the DeserializationTest program and you will see that the object stream is 
+ deserialized successfully because the change in Employee class is compatible with serialization process.

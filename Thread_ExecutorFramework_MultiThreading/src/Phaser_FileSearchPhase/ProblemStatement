@@ -1,0 +1,6 @@
+Implement an example where three tasks look for files with the extension .log modified in the last 24 hours in three different folders 
+and their sub-folders. This task is divided into three steps:
+	1. Get a list of the files with the extension .log in the assigned folder and its sub-folders.
+	2. Filter the list created in the first step by deleting the files modified more than 24 hours ago.
+	3. Print the results in the console. At the end of the step 1 and step 2, we check if the list has any elements or not. 
+	   If it hasn't 	any element, the thread ends its execution and is eliminated from the the phaser class.

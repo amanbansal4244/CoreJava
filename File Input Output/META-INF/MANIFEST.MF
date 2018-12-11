@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: File_Input_Output
+Bundle-SymbolicName: File_Input_Output
+Bundle-Version: 1.0.0.qualifier
+Export-Package: FileFirstReadThenWrite,
+ ReadWritePermission,
+ SearchUtilitiesAndLogFiles,
+ Serialization_Deserialization,
+ Split,
+ Test1,
+ Zip_Unzip

@@ -1,0 +1,18 @@
+You have 'input.txt' with below content:
+	Server1, Database, MySQL, 5.5
+	Server2, Database, MySQL, 5.1
+	Server3, OS, Ubuntu, 10.04
+	Server1, OS, Ubuntu, 12.04
+	Server2, OS, Ubuntu, 12.04
+	Server3, Language, Python, 2.6.3
+	
+Find server name which has oldest version of respective Application and write into 'output.txt' file.
+
+O/p :
+	Server3 -> because of "Server3, OS, Ubuntu, 10.04"
+	Server2 -> because of "Server2, Database, MySQL, 5.1"
+	
+
+'output.txt' file should have below content:
+	Server3
+	Server2

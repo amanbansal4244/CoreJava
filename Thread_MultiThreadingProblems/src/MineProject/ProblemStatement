@@ -1,0 +1,15 @@
+We are going to create user interface like chess and two button : start and stop.
+Every single white cell may be empty or their bomb black cell. So there are going to be like 'mine layers' and 'mine sweepers'.
+'mine layers' are going to put mines on a given cell and 'mine sweepers' are going to remove mines from a given cell which has mines.
+If we start the application(you will see once you start the application), the red cell represents the mines( Basically the mine layers will 
+set these mines) and 'mine sweepers' are going to remove mines from a given cell which has mines, thats why pattern is keep changing and changing.
+
+If we click Stop button, board is going to be cleared and we can start again and stop.. so on.
+
+This application is about several mine layer and mine sweeper to a distinct thread. Basically every single 'mine layers' and 'mine sweepers' is 
+going to work independently in the sense, they try to put mines on a given cell or they try to get rid of the mines from a given cell
+
+
+	
+	
+	

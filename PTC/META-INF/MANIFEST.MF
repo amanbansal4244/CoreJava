@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PTC
+Bundle-SymbolicName: PTC
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.ptc.plms.gol.oops,
+ com.ptc.plms.gol.oops.rules

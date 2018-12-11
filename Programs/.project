@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Programs</name>
+	<comment></comment>
+	<projects>
+		<project>15.MultithreadingProblem</project>
+		<project>Abstract</project>
+		<project>AccessSpecifier</project>
+		<project>Array_Concept</project>
+		<project>Casting</project>
+		<project>Checked_Unchecked_Exception</project>
+		<project>Checked_Unchecked_Exception1</project>
+		<project>CloneConcept</project>
+		<project>Collection</project>
+		<project>Collection_Concept</project>
+		<project>Company_Problem</project>
+		<project>ComparatorConcept</project>
+		<project>Constructor</project>
+		<project>DesignPattern</project>
+		<project>Exception</project>
+		<project>ExecutorFramework_MultiThreading</project>
+		<project>Extra</project>
+		<project>File Input Output</project>
+		<project>Gc Collector</project>
+		<project>GenericConcept</project>
+		<project>Instance_Local_Variable</project>
+		<project>InstanceOfOperator</project>
+		<project>InstanceStaticMethod</project>
+		<project>Interface</project>
+		<project>Java Operator</project>
+		<project>java-berlin-clock-master</project>
+		<project>Java8LambdaExpressionBasic</project>
+		<project>JavaCallByReferenceOrCallByJava</project>
+		<project>JDBC Connection</project>
+		<project>JUnit_Project</project>
+		<project>MockitoFramework</project>
+		<project>MockitoFrameworkConcept</project>
+		<project>OwnImplementationInCollection</project>
+		<project>Polymorphism</project>
+		<project>PTC</project>
+		<project>ReflectionAPI</project>
+		<project>RemoteSystemsTempFiles</project>
+		<project>SapientAssigment_MetroCard</project>
+		<project>SapientAssignment_FeeCalculator</project>
+		<project>SerilizationPrograms</project>
+		<project>SingletonConcept</project>
+		<project>SongsNameEditor</project>
+		<project>Static</project>
+		<project>StringConceptInDetailed</project>
+		<project>Test</project>
+		<project>TestAnonymous</project>
+		<project>TestJavaSkills</project>
+		<project>This&amp;Super</project>
+		<project>ThoughtBoxBookReadingDesign</project>
+		<project>ThoughtWorksCodeAssignment</project>
+		<project>Thread</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.ManifestBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.SchemaBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.pde.PluginNature</nature>
+	</natures>
+</projectDescription>

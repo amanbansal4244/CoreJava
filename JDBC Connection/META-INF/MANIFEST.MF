@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JDBC_Connection
+Bundle-SymbolicName: JDBC_Connection
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: JDBC Connection.jar,
+ java_cdac/madhura dac1/madhura/HibernateDemo/WebContent/WEB-INF/lib/ojdbc6.jar
+Export-Package: JdbcConnection,
+ UsingPreparedStatement,
+ UsingStatement

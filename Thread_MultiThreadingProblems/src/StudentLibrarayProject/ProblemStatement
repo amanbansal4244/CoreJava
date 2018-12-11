@@ -1,0 +1,6 @@
+Dining philosopher:
+	1. 5 Students are present in a library + 7 books are available in a library.
+	2. The problem: how to create a concurrent algorithm such that no book can be read by more than one student at a one time.
+	
+	
+	

@@ -1,0 +1,11 @@
+Static method can not be override with non static method but we can over ride using static method but it can be called from any other class method or main using class name.
+
+Global Static variable  can be called from any other class method or main using class name.
+
+Static variables can not be declared with in method in Java, if we declare then it will give Illegal modifier for parameter y; only final is permitted
+
+Static variables can be declared with in function in C
+
+but we can declare Static variable as a globally
+
+Static method can not access instance variable. We will get compile time exception.

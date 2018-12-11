@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Programs
+Bundle-SymbolicName: Programs
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Programs.jar,
+ Java_Aman/Workspace/Apache Jars and Tomcat/apache-commons.jar
+Export-Package: .,
+ AnagramProblemWays,
+ DataStructure,
+ LRUCacheProblem,
+ NumberProblem,
+ OnlineProblem,
+ RotationStringPrograms
+Import-Package: Testing

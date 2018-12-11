@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SerilizationPrograms
+Bundle-SymbolicName: SerilizationPrograms
+Bundle-Version: 1.0.0.qualifier
+Export-Package: AvoidAnotherInstanceFromDeserializationProces,
+ ExternalizableInterface,
+ InvalidClassException,
+ ModifiedFieldValueAfterSerialization,
+ SerializationProxyPattern,
+ SerializationWithInheritance,
+ Transient_Concept

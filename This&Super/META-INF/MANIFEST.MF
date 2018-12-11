@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: This_Super
+Bundle-SymbolicName: This_Super
+Bundle-Version: 1.0.0.qualifier
+Export-Package: ThisSuperExample
