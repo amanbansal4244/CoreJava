@@ -1,0 +1,45 @@
+package StreamsJava8;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ForkJoinPool;
+import java.util.stream.Collectors;
+
+public class ParallelStreamExample_with_Get_Methood {
+
+	public static void main(String[] args) throws InterruptedException, ExecutionException {
+		int poolSize = Runtime.getRuntime().availableProcessors();
+		ForkJoinPool forkJoinPool = null;
+		List<Integer> result = new ArrayList<>();
+		long start = System.currentTimeMillis();
+		try {
+			forkJoinPool = new ForkJoinPool(poolSize);
+			List<Integer> testList = new ArrayList<Integer>();
+			for (int i = 0; i < 1000000; i++) {
+				testList.add(i);
+			}
+
+			
+			 result = forkJoinPool.submit(() -> 
+			 testList.parallelStream()
+				 .map(item -> {return item * 10;})
+				 .collect(Collectors.toList()))
+				 .get(); //or use .join();  // this makes it an overall blocking call
+
+		} catch (InterruptedException | ExecutionException e) {
+			e.printStackTrace();
+		} finally {
+			if (forkJoinPool != null) {
+				forkJoinPool.shutdown(); // always remember to shutdown the pool
+			}
+		}
+
+		System.out.println("size:" + result.size());
+		// System.out.println("result:" +result);
+		System.out.println(System.currentTimeMillis() - start + "ms");
+
+	}
+
+}
